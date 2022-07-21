@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* heder start */
+.best-player {
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    width: 100%;
+    height: 400px;
+
+    margin: 10px 15px;
+    border-radius: 15px;
+    padding: 11px 9px;
+    transition: 2s ease-out;
+}
+
+.best-player:hover {
+    transform: scale(.80);
+
+}
+
+.best-info {
+    padding: 15px 10px;
+}
+
+.header-btn {
+    background-color: rgb(168, 7, 7);
+    margin: 25px 0 0 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: wheat;
+}
+
+.player-img {
+    padding: 9px 14px;
+}
+
+.player-img img {
+    width: 100%;
+}
+
+/* header end */
+
+/* main information */
+.main-all {
+    margin: 15px 25px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.main-infor {
+    float: left;
+    width: 180px;
+    height: 280px;
+
+
+}
+
+.match-link {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(29, 18, 125);
+}
+
+.vs-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.vs {
+    width: 33%;
+}
+
+.vs img {
+    width: 32%;
+}
+
+.vs-h1 {
+
+    width: 33%;
+    color: black;
+    font-size: 5rem;
+}
+
+.main-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 15px;
+}
+
+.more-img {
+    background-color: rgb(148, 148, 116);
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.players-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.main-button {
+    padding: 10px 5px;
+    margin: 15px 10px;
+    border-radius: 5px;
+}
+
+.btn-colr {
+    background-color: red;
+
+}
+
+.more-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 20px;
+    border-radius: 5px;
+}
+
+.more-player-img img {
+    width: 100%;
+}
+
+.more-btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+}
+
+.main-icon {
+    display: flex;
+    row-gap: 50px;
+}
+
+.clock-icon {
+    padding-right: 50px;
+}
+
+.c-icon,
+.m-icon {
+    padding-right: 10px;
+}
+
+.hidden-btn {
+    margin: 15px 0;
+    color: white;
+    padding: 10px 15px;
+    background-color: mediumslateblue;
+    border-radius: 5px;
+    display: none;
+
+}
+
+
+.hidden-btn button {
+    text-align: center;
+}
+
+/* main end */
+
+/* footer start */
+
+footer {
+    display: grid;
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding: 10px 5px;
+    justify-content: center;
+}
+
+.foot-heding {
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px 10px;
+    color: white;
+    margin: 50px 0px;
+    font-size: 16px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.icon-one {
+    font-size: 3rem;
+    color: blue;
+    border-radius: 2px;
+
+}
+
+.icon-two {
+    font-size: 3rem;
+    color: dodgerblue;
+}
+
+.icon-tree {
+    font-size: 3rem;
+    color: lightseagreen;
+}
+
+@media screen and (min-width:360px) and (max-width:679px) {
+
+
+    .best-player {
+        background-color: black;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        color: white;
+        width: 100%;
+        height: 800px;
+
+        margin: 10px 15px;
+        border-radius: 15px;
+        padding: 11px 9px;
+        transition: 2s ease-out;
+    }
+
+    .main-infor {
+
+        float: none;
+
+    }
+
+    .players-btn {
+
+        flex-direction: none;
+
+        background-color: black;
+        border-radius: 5px;
+        display: inline-block;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 250px;
+
+    }
+
+
+
+
+    .main-button {
+        font-size: 1rem;
+        color: black
+    }
+
+    .main-img {
+        display: flex;
+        flex-direction: column;
+        gap: 15px 15px;
+
+
+    }
+
+    .main-img img {
+        width: 260px;
+    }
+
+    /* footer   */
+    ul {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+
+    }
+
+    footer {
+
+        background-color: black;
+        color: white;
+        height: 1050px;
+
+        justify-content: center;
+
+    }
+
+
+}
+
+/* footer end */
+/* media query start */
+
+@media screen and (min-width:680px) and (max-width:1100px) {
+    .best-player {
+        background-color: black;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: white;
+        width: 100%;
+        height: 400px;
+        margin: 10px 15px;
+        border-radius: 15px;
+        padding: 11px 9px;
+        transition: 2s ease-out;
+    }
+
+    .main-infor {
+
+        float: none;
+
+    }
+
+    .players-btn {
+
+        flex-direction: none;
+
+        background-color: black;
+        border-radius: 5px;
+        display: inline-block;
+        flex-direction: column;
+
+
+    }
+
+
+    .players-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1000px;
+
+    }
+
+    .main-button {
+        font-size: 3rem;
+        color: black
+    }
+
+    .main-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px 15px;
+
+    }
+
+    /* footer   */
+    ul {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+
+    }
+
+    footer {
+
+        background-color: black;
+        color: white;
+        height: 1050px;
+
+        justify-content: center;
+
+    }
+
+    .hidden-btn {
+        display: block;
+        margin: 15px 0;
+        color: white;
+        padding: 10px 15px;
+        background-color: mediumslateblue;
+        border-radius: 5px;
+        text-align: center;
+
+
+    }
+
+}
